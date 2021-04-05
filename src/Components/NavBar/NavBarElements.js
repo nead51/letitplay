@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 import { NavLink as Link } from 'react-router-dom'
-import {faBars, FaFileExcel} from 'react-icons/fa'
+import {FaBars} from 'react-icons/fa'
 
 export const Nav = styled.nav`
     background: #000;
@@ -10,7 +10,7 @@ export const Nav = styled.nav`
     padding: 0.5rem calc((100vw - 1000px) / 2);
     z-index: 10;
 `
-export const Navlink = styled(Link)`
+export const NavLink = styled(Link)`
     color: #fff;
     display: flex;
     align-items: center;
@@ -22,7 +22,7 @@ export const Navlink = styled(Link)`
     color: #15cdfc;
 }
 `
-export const Bars = styled(faBars)`
+export const Bars = styled(FaBars)`
     display: none;
     color: #fff;
     @media screen and (max-width: 768px) {
