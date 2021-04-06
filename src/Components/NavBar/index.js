@@ -21,11 +21,17 @@ const Navbar = () => {
           <NavLink to='/intro' activeStyle>
             About
           </NavLink>
-          <NavLink to='/services' activeStyle>
-            Services
+          <NavLink to='/step1' activeStyle>
+            Step1
           </NavLink>
-          <NavLink to='/contact-us' activeStyle>
-            Contact Us
+          <NavLink to='/step2' activeStyle>
+            Step2
+          </NavLink>
+          <NavLink to='/step3' activeStyle>
+            Step3
+          </NavLink>
+          <NavLink to='/step4' activeStyle>
+            Step4
           </NavLink>
           <NavLink to='/sign-up' activeStyle>
             Sign Up

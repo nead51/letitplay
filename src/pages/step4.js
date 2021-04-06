@@ -1,6 +1,7 @@
+
 import React from 'react';
 
-const Step1 = () => {
+const Step2 = () => {
   return (
     <div
       style={{
@@ -10,9 +11,9 @@ const Step1 = () => {
         height: '90vh'
       }}
     >
-      <h1>Step1</h1>
+      <h1>Step2</h1>
     </div>
   );
 };
 
-export default Step1;
+export default Step2;
