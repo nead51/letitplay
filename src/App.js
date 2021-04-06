@@ -20,6 +20,10 @@ function App() {
         <Route path='/intro' component={Intro} />
         <Route path='/step1' component={Step1} />
         <Route path='/step2' component={Step2} />
+        <Route path='/step3' component={Step3} />
+        <Route path='/step4' component={Step4} />
+
+
         <Route path='/sign-up' component={SignUp} />
       </Switch>
     </Router>
