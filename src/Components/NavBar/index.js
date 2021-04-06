@@ -33,9 +33,6 @@ const Navbar = () => {
           <NavLink to='/step4' activeStyle>
             Step4
           </NavLink>
-          <NavLink to='/sign-up' activeStyle>
-            Sign Up
-          </NavLink>
           {/* Second Nav */}
           {/* <NavBtnLink to='/sign-in'>Sign In</NavBtnLink> */}
         </NavMenu>
