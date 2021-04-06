@@ -8,6 +8,8 @@ import {
   NavBtnLink
 } from './NavBarElements';
 
+//this is the list of titles
+
 const Navbar = () => {
   return (
     <>
@@ -17,7 +19,7 @@ const Navbar = () => {
         <Bars />
         <NavMenu>
           <NavLink to='/about' activeStyle>
-            About!
+            About
           </NavLink>
           <NavLink to='/services' activeStyle>
             Services
