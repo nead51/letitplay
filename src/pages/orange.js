@@ -4,7 +4,7 @@ const Orange = () => {
   return (
     <div
       style={{
-        color: 
+        backgroundColor: '#FFA500', 
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',

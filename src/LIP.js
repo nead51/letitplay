@@ -16,14 +16,7 @@ function App() {
       <Navbar />
       <Switch>
         <Route path='/' exact component={Orange} />
-        <Route path='/intro' component={Step1} />
-        <Route path='/step1' component={Step1} />
-        <Route path='/step2' component={Step2} />
-        <Route path='/step3' component={Step3} />
-        
 
-
-        <Route path='/sign-up' component={SignUp} />
       </Switch>
     </Router>
   );
