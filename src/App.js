@@ -8,7 +8,7 @@ import Step1 from './pages/step1';
 import Step2 from './pages/step2';
 import Step3 from './pages/step3';
 import Step4 from './pages/step4';
-import Orange from '/pages/orane';
+import Orange from './pages/orange';
 
 import SignUp from './pages/signup';
 

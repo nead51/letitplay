@@ -5,8 +5,12 @@ import {
   Bars,
   NavMenu,
   NavBtn,
-  NavBtnLink
+  NavBtnLink,
 } from './NavBarElements';
+
+import {
+  Orange
+} from './ColorElements';
 
 //this is the list of titles
 
@@ -38,6 +42,7 @@ const Navbar = () => {
          </NavLink>
         </NavMenu>
       </Nav>
+      
     </>
   );
 };

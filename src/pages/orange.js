@@ -8,7 +8,7 @@ const Orange = () => {
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
-        height: '120vh'
+        height: '90vh'
       }}
     >
       <h1>Orange</h1>

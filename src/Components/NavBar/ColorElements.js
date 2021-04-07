@@ -1,6 +1,13 @@
 import styled from 'styled-components'
-import { NavLink as Link } from 'react-router-dom'
 import {FaBars} from 'react-icons/fa'
+
+export const Orange = styled.div`
+    background: #FFA500;
+    height: 88;
+
+
+`
+/*
 
 export const Nav = styled.nav`
     background: #000;
@@ -67,3 +74,4 @@ export const NavBtnLink = styled(Link)`
         color: #010606;
     }
 `
+*/
