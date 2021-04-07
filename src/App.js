@@ -8,6 +8,7 @@ import Step1 from './pages/step1';
 import Step2 from './pages/step2';
 import Step3 from './pages/step3';
 import Step4 from './pages/step4';
+import Orange from '/pages/orane';
 
 import SignUp from './pages/signup';
 
@@ -21,6 +22,7 @@ function App() {
         <Route path='/step1' component={Step1} />
         <Route path='/step2' component={Step2} />
         <Route path='/step3' component={Step3} />
+        <Route path='/orange' component={Orange} />
         
 
 
