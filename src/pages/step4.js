@@ -54,7 +54,7 @@ const Step4 = () => {
           <a href="https://open.spotify.com/playlist/0CqmD4KFPDmZ1Wt7bAKB2G?si=1a8c01dadfc84c3b"></a>
           </OrangeCol>
           <RedCol size={1}>
-          <a href="https://open.spotify.com/playlist/6dvRFS1QdXeHq40BVjCIf4?si=06e37dc30d904439">...:</a>
+          <a href="https://open.spotify.com/playlist/6dvRFS1QdXeHq40BVjCIf4?si=06e37dc30d904439"></a>
           </RedCol>
         </Row>
         <Row>
