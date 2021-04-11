@@ -35,7 +35,7 @@ const Navbar = () => {
             Step3
           </NavLink>
           <NavLink to='/step4' activeStyle>
-            Step4
+            Playlist
          </NavLink>
         </NavMenu>
       </Nav>

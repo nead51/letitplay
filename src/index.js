@@ -7,7 +7,6 @@ import LIP from './LIP';
 ReactDOM.render(
   <React.StrictMode>
     <App />
-    <LIP />
   </React.StrictMode>,
   document.getElementById('root')
 );
