@@ -10,7 +10,7 @@ import {
 
 import {
   Orange
-} from './ColorElements';
+} from '../Colors/ColorElements';
 
 //this is the list of titles
 
@@ -22,8 +22,8 @@ const Navbar = () => {
         </NavLink>
         <Bars />
         <NavMenu>
-          <NavLink to='/intro' activeStyle>
-            About
+          <NavLink to='/index' activeStyle>
+            Index
           </NavLink>
           <NavLink to='/step1' activeStyle>
             Step1
@@ -39,9 +39,9 @@ const Navbar = () => {
          </NavLink>
         </NavMenu>
       </Nav>
-      
     </>
   );
 };
 
 export default Navbar;
+
