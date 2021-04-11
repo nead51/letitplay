@@ -4,13 +4,9 @@ import {
   NavLink,
   Bars,
   NavMenu,
-  NavBtn,
-  NavBtnLink,
-} from './NavBarElements';
+  } from './NavBarElements';
 
-import {
-  Orange
-} from '../Colors/ColorElements';
+
 
 //this is the list of titles
 
