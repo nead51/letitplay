@@ -6,21 +6,19 @@ import {
   NavMenu,
   } from './NavBarElements';
 
-
-
-//this is the list of titles
-
 const Navbar = () => {
   return (
     <>
       <Nav>
-        <NavLink to='/'>
+        <NavLink to=''>
         </NavLink>
         <Bars />
         <NavMenu>
-          <NavLink to='/index' activeStyle>
-            Index
-          </NavLink>
+          
+          
+        <NavLink to='/step4' activeStyle>
+            Playlist
+         </NavLink>
           <NavLink to='/step1' activeStyle>
             Step1
           </NavLink>
@@ -30,9 +28,7 @@ const Navbar = () => {
           <NavLink to='/step3' activeStyle>
             Step3
           </NavLink>
-          <NavLink to='/step4' activeStyle>
-            Playlist
-         </NavLink>
+          
         </NavMenu>
       </Nav>
     </>

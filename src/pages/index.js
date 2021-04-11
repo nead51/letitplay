@@ -7,7 +7,7 @@ const Index = () => {
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
-        height: '90vh'
+        height: '75vh'
       }}
     >
       <h1>Index</h1>
