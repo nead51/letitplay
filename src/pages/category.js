@@ -10,8 +10,7 @@ const Category = () => {
         height: '90vh'
       }}
     >
-      <h1>Category</h1>
-
+      <h1>Category</h1>           
     </div>
   );
 };
