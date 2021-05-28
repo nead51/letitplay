@@ -1,7 +1,7 @@
 import React, {useState} from "react";
-import "../Components/Button.css";
+import "./Button.css";
 
-import {Button} from "../Components/Button.js";
+import {Button} from "./Button.js";
 
 
 function Category() {
