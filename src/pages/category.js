@@ -1,7 +1,7 @@
-import React, {useState} from "react"
-import './Components/Button.js';
-import "./Components/button.css";
-import {Button} from "./Components/Button";
+import React, {useState} from "react";
+import "../Components/Button.css";
+
+import {Button} from "../Components/Button.js";
 
 
 function Category() {
@@ -106,15 +106,6 @@ function Category() {
     'Song with Womens Name',
     'Song with Mans Name',
     'Song involving Transportation',
-    
-
-
-
-
-
-
-
-
 
   ];
   const randomNumb = Math.ceil((((Math.random(.5)*LIST.length)+(Math.random(1.5)*LIST.length+2))/2));
@@ -136,7 +127,6 @@ function Category() {
       >Random Category
       </Button>  <br></br>
       <h3>{LIST[randomNumb]}</h3>
-      <h3>{randomNumb}</h3>
       </div>
     
   );

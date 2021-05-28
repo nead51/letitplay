@@ -10,7 +10,7 @@ const Index = () => {
         height: '75vh'
       }}
     >
-      <h1>Index</h1>
+      <h1>Hello</h1>
     </div>
   );
 };

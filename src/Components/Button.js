@@ -1,5 +1,5 @@
 import React from "react";
-import "./button.css"
+import "./Button.css"
 
 const STYLES = [
     "btn--primary--solid",
@@ -9,7 +9,8 @@ const STYLES = [
     "btn--primary--outline",
     "btn--warning--outline",
     "btn--danger--outline",
-    "btn--success--outline",    
+    "btn--success--outline",  
+      
 ];
 
 const SIZES = [ "btn--medium", "btn--large"];
@@ -32,7 +33,6 @@ export const Button = ({
     return(
         <button className={`btn ${checkButtonStyle} ${checkButtonSize}`} onClick={onClick} type={type}>
             {children}
-        </button>
-        
+        </button>        
     )
 }

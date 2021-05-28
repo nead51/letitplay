@@ -6,7 +6,7 @@ import Step1 from './pages/step1';
 import Category from './pages/category';
 import Step3 from './pages/step3';
 import Step4 from './pages/step4';
-import Button from './Components/Buttons/Button';
+import Button from './Components/Buttons/button.css';
 
 
 function App() {
@@ -18,7 +18,6 @@ function App() {
         <Route path='/category' component={Category} />
         <Route path='/step3' component={Step3} />
         <Route path='/step4' component={Step4} />
-        
       </Switch>
     </Router>
   );
