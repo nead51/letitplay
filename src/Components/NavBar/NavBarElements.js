@@ -4,7 +4,6 @@ import {FaBars} from 'react-icons/fa'
 
 export const Nav = styled.nav`
     background: #010101;
-    height: 80 px;
     display: flex;
     justify-content: space-between;
     padding: 0.5rem calc((100vw - 300px) / 2);
@@ -25,13 +24,13 @@ export const NavLink = styled(Link)`
 export const Bars = styled(FaBars)`
     display: none;
     color: #fff;
-    @media screen and (max-width: 768px) {
-        display: block;
+    @media screen and (max-width: 768px) {   
+        display: flex;
         postition: absolute;
-        top: 0;
+        top: 300px;
         right: 0;
-        transform: translate(-100%, -20%);
-        font-size: 1.8rem;
+        transform: translate(-100%, -90%);
+        font-size: 1.8 rem;
         cursor: pointer;
 }
 `
@@ -39,7 +38,7 @@ export const NavMenu = styled.div`
     display: flex;
     align-items: center;
     margin-right: -10px;
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 1px) {
         display: none;
     }
 `
@@ -47,7 +46,7 @@ export const NavBtn = styled.nav`
     display: flex;
     align-items: center;
     margin-right: 24px;
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 30px) {
         display: none;
     }
 `
