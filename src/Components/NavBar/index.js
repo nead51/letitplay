@@ -18,10 +18,7 @@ const Navbar = () => {
         </NavLink>
         <NavLink to='/category' activeStyle>
             Category
-        </NavLink>
-        <NavLink to='/step3' activeStyle>
-            Step3
-          </NavLink>
+        </NavLink>  
         </NavMenu>
       </Nav>
     </>
