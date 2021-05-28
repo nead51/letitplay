@@ -18,28 +18,51 @@ height: 20vh;
 
 const OrangeCol = styled(Col)`
 background: orange;
+a {
+  color: orange
+} 
 `;
 const RedCol = styled(Col)`
 background: Red;
-text-color: Red
+a {
+  color: Red
+} 
 `;
 const BlueCol = styled(Col)`
 background: Blue;
+a {
+  color: Blue
+} 
 `;
 const TealCol = styled(Col)`
 background: grey;
+a {
+  color: grey
+} 
 `;
 const PurpleCol = styled(Col)`
 background: Purple;
+a {
+  color: Purple
+} 
 `;
 const BlackCol = styled(Col)`
 background: Black;
+a {
+  color: Black
+} 
 `;
 const YellowCol = styled(Col)`
 background: yellow;
+a {
+  color: yellow
+} 
 `;
 const GreenCol = styled(Col)`
 background: green;
+a {
+  color: green
+} 
 `;
 
 
