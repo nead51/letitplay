@@ -72,7 +72,9 @@ const Step4 = () => {
     <div
     style={{ backgroundColor: '#E1E4E9'}}>
       <h1
-      style={{ textAlign: "center"}}
+      style={{ textAlign: "center",
+      
+    }}
       >Let it Play</h1>
       <Grid>
         <Row>
