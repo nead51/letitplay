@@ -10,7 +10,7 @@ const Step3 = () => {
         height: '90vh'
       }}
     >
-      <h1></h1>
+      <h1>Step 3</h1>
     </div>
   );
 };

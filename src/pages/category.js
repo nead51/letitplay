@@ -7,6 +7,7 @@ import {Button} from "./Button.js";
 function Category() {
 
   const LIST =  [
+    
     'Love Song', 
     'Springsteen',
     "Dylan",
@@ -126,7 +127,21 @@ function Category() {
         buttonSize="btn--large"
       >Random Category
       </Button>  <br></br>
-      <h3>{LIST[randomNumb]}</h3>
+      <h1>{LIST[randomNumb]}</h1>
+      <br></br>
+      <br></br><br></br><br></br>
+      <br></br><br></br><br></br><br></br>
+      <br></br><br></br><br></br><br></br>
+      <br></br><br></br><br></br><br></br><br></br>
+      <br></br><br></br><br></br>
+      <br></br><br></br><br></br><br></br>
+      <br></br><br></br><br></br><br></br>
+      <br></br><br></br><br></br><br></br><br></br>
+      <br></br><br></br><br></br>
+      <br></br><br></br><br></br><br></br>
+      <br></br><br></br><br></br><br></br>
+      <br></br><br></br><br></br><br></br>
+      <h1>{LIST[count]}</h1>
       </div>
     
   );
