@@ -7,11 +7,13 @@ const Step1 = () => {
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'top',
-        height: '90vh',
+        height: '70vh',
         padding: '45px',
         fontSize: '18pt',
+        backgroundColor: '#E1E4E9',
       }}>
       <h1>How to Play</h1>
+      
       <ul>
         <li>
           A music matching Game for up to 8 Players

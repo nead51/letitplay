@@ -27,7 +27,7 @@ const BlueCol = styled(Col)`
 background: Blue;
 `;
 const TealCol = styled(Col)`
-background: teal;
+background: grey;
 `;
 const PurpleCol = styled(Col)`
 background: Purple;
@@ -46,8 +46,11 @@ background: green;
 
 const Step4 = () => {
   return (
-    <div>
-      <h1>Let it Play</h1>
+    <div
+    style={{ backgroundColor: '#E1E4E9'}}>
+      <h1
+      style={{ textAlign: "center"}}
+      >Let it Play</h1>
       <Grid>
         <Row>
         <OrangeCol size={1}>

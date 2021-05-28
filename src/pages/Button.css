@@ -7,6 +7,8 @@
     --dark: #181717;
 }
 
+
+
 .btn {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
@@ -76,9 +78,9 @@
 
 .btn--large{
     padding: 15px 30px;
-    font-size: 20px;
+    font-size: 45px;
 }
 
 .h1 {
-    font-size: xx-small;
+    font-size: large;
 }

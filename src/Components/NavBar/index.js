@@ -12,13 +12,13 @@ const Navbar = () => {
         <NavMenu>
 
         <NavLink to='/step1' activeStyle>
-            Instructions
+            <h1>Instructions</h1>
         </NavLink>
         <NavLink to='/category' activeStyle>
-            Category
+            <h1>Category</h1>
         </NavLink>  
         <NavLink to='/step4' activeStyle>
-            Playlist
+            <h1>Playlist</h1>
         </NavLink>
        
         </NavMenu>

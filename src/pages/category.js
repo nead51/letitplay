@@ -15,6 +15,7 @@ function Category() {
     'Fight song', 
     'Massachusettes',
     'football',
+    'JamBand',
     'Drinking Songs',
     'Love Song', 
     'TV theme',
@@ -118,17 +119,32 @@ function Category() {
 
   return (
      
-    <div className="App">
+    <div 
+    style={{ backgroundColor: '#E1E4E9',}}
+    className="App">
     <br></br>
       <Button  
         type="button"
         onClick={rand}
         buttonStyle="btn--primary--outline"
         buttonSize="btn--large"
+        
       >Random Category
       </Button>  <br></br>
-      <h1>{LIST[randomNumb]}</h1>
+      <h1 style={{fontSize: '45pt'}}>{LIST[randomNumb]}</h1>
       <br></br>
+      <br></br><br></br><br></br>
+      <br></br><br></br><br></br><br></br>
+      <br></br><br></br><br></br><br></br>
+      <br></br><br></br><br></br><br></br><br></br>
+      <br></br><br></br><br></br>
+      <br></br><br></br><br></br><br></br>
+      <br></br><br></br><br></br><br></br>
+      <br></br><br></br><br></br><br></br><br></br>
+      <br></br><br></br><br></br>
+      <br></br><br></br><br></br><br></br>
+      <br></br><br></br><br></br><br></br>
+      <br></br><br></br><br></br><br></br><br></br>
       <br></br><br></br><br></br>
       <br></br><br></br><br></br><br></br>
       <br></br><br></br><br></br><br></br>
