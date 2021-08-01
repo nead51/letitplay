@@ -37,7 +37,6 @@ function Category() {
     'Fastest Song (Tempo)',
     'Sci-Fi',
     'Fantasy',
-    'Drop the "F" Bomb',
     'Alternative Rock',
     'Indie Rock',
     'New Music',
